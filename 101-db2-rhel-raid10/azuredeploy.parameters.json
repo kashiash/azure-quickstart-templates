@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "db2_user": {
+            "value": "db2user"
+        },
+        "db2_password": {
+            "value": "GEN-PASSWORD"
+        },
+        "db2_dbname": {
+            "value": "hr"
+        },
+        "vm_name": {
+            "value": "db2"
+        },
+        "disk_size": {
+            "value": 10
+        },
+        "sshUserName": {
+            "value": "rhel"
+        },
+        "sshPublicKey": {
+            "value": "GEN-SSH-PUB-KEY"
+      },
+        "sript_url": {
+            "value": "https://raw.githubusercontent.com/ms-cse/azure-quickstart-templates/master/101-db2-rhel/scripts/db2_setup.sh"
+        }
+    }
+}

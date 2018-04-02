@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "DB2 on RHEL with RAID10",
+  "description": "Deploy a DB2 instance in Azure with 4 disks in RAID10 on RHEL7.4.",
+  "summary": "Quickly deploy a RHEL VM with DB2 installed on a redundant storage and a database ready to serve requests and a sample database.",
+  "githubUsername": "ams",
+  "dateUpdated": "2018-03-29"
+}
