@@ -23,8 +23,11 @@
         "sshPublicKey": {
             "value": "GEN-SSH-PUB-KEY"
       },
-        "sript_url": {
+        "script_url": {
             "value": "https://raw.githubusercontent.com/ms-cse/azure-quickstart-templates/master/101-db2-rhel/scripts/db2_setup.sh"
+        },
+        "db2_url": {
+            "value": ""
         }
     }
 }
