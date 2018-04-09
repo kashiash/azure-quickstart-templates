@@ -4,6 +4,7 @@
 $USER=$1
 $PASSWD=$2
 $DB=$3
+$DB2_URL=$4
 
 #pre-reqs
 yum update -y
@@ -20,7 +21,7 @@ mount /dev/md0 /db2/
 echo '/dev/md0 /db2 ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
 
 #download DB2 11.1 from blob storage
-wget -nv https://iwm.dhe.ibm.com/sdfdl/v2/regs2/db2pmopn/db2_v111/Xa.2/Xb.XXa1DxLQqbbXkRPVV-WYnwCauduRMDo9X3Jrss38h4Q/Xc.db2_v111/v11.1_linuxx64_server_t.tar.gz/Xd./Xf.LPr.D1vk/Xg.9592889/Xi.swg-dm-db2trial/XY.regsrvs/XZ.1MmAeJ6FG2uTxSIexUR5Rwiz-E0/v11.1_linuxx64_server_t.tar.gz
+wget -nv $DB2_URL
 
 tar -zxvf v11.1_linuxx64_server_t.tar.gz -C /tmp/
 
