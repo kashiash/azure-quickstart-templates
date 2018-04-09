@@ -2,6 +2,13 @@
 
 This quickstart template deploys a fully functional IBM DB2 instance in Azure on a RHEL7.4 (pay-as-you-go) VM. It takes long time to finish (downloading, extracting, installing DB2 takes the most time)
 
+<a href="https://raw.githubusercontent.com/ms-cse/azure-quickstart-templates/101-db2-rhel-raid10/101-db2-rhel-raid10/azuredeploy.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+<a href="https://raw.githubusercontent.com/ms-cse/azure-quickstart-templates/101-db2-rhel-raid10/101-db2-rhel-raid10/azuredeploy.parameters.json" target="_blank">
+    <img src="http://armviz.io/visualizebutton.png"/>
+</a>
+
 To deploy the template in Azure:
 
 ```
