@@ -72,6 +72,10 @@
         "script_url": {
             "type": "string"
         },
+        "db2_url": {
+            "type": "string"
+        },
+
         "sshUserName": {
             "type": "string",
             "metadata": {
@@ -249,7 +253,7 @@
                 "fileUris": [
                     "[concat(parameters('script_url'))]"
                 ],
-                "commandToExecute": "[concat(variables('script_name'),' ', parameters('db2_user'), ' ', parameters('db2_password'), ' ', parameters('db2_dbname'))]"
+                "commandToExecute": "[concat(variables('script_name'),' ', parameters('db2_user'), ' ', parameters('db2_password'), ' ', parameters('db2_dbname'), ' ', parameters('db2_url'))]"
               }
             }
           },
